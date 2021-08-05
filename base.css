@@ -22,7 +22,7 @@
 
   /* Typography */
   --h1: 36px;
-  --h1-line-height: 55px;
+  --h1-line-height: 50px;
   --h1-letter-spacing: 0.25px;
 
   --h2: 20px;
@@ -35,10 +35,17 @@
   --body-s: 13px;
   --body-s-line-height: 23px;
   --body-s-letter-spacing: 0.1px;
+
+  --container-max-width: 1100px;
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: var(--white);
+  padding: 75px 30px;
 }
 
 h1 {
@@ -56,12 +63,20 @@ h2 {
   font-size: var(--body);
   line-height: var(--body-line-height);
   letter-spacing: var(--body-letter-spacing);
+  opacity: 50%;
+}
+
+.body-s-text {
+  font-size: var(--body-s);
+  line-height: var(--body-s-line-height);
+  letter-spacing: var(--body-s-letter-spacing);
+  opacity: 50%;
 }
 
 @media (max-width: 375px) {
   :root {
     --h1: 24px;
     /* --h1-line-height: 55px; */
-    --h1-letter-spacing: 0.17px;
+    --h1-letter-spacing: 0.1r7px;
   }
 }
