@@ -86,3 +86,37 @@
 #card-4 {
   border-top: 4px solid var(--blue);
 }
+
+@media (max-width: 986px) {
+  .cards-container {
+    align-items: stretch;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #card-1,
+  #card-2,
+  #card-3,
+  #card-4 {
+    grid-row: auto;
+    grid-column: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+    margin-top: 75px;
+    grid-gap: 25px;
+  }
+
+  .card-description {
+    margin-top: 2px;
+  }
+
+  .card-icon {
+    height: auto;
+    margin-top: 33px;
+    max-width: 57px;
+  }
+}

@@ -76,7 +76,7 @@ h2 {
 @media (max-width: 375px) {
   :root {
     --h1: 24px;
-    /* --h1-line-height: 55px; */
+    --h1-line-height: 40px;
     --h1-letter-spacing: 0.1r7px;
   }
 }
