@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-with-grid-css-vars-cImP4dY0_) -->
-<!-- - Live Site URL: (https://lm-meet-landing-page.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/4-card-feature-section-with-grid-rowcolumn-4SLDfuf6V)
+- Live Site URL: (https://lm-4card-feature-section.netlify.app/)
 
 ## My process
 
@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-Not finished.
+I was practicing and learning a tiny bit about grid-row and grid-column to make grid children span more than one row/column. Great experience and turned out well!
 
 ## Author
 
